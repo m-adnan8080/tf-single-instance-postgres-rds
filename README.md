@@ -89,4 +89,4 @@ After applying the configuration, the RDS instance will be publicly accessible, 
 ```
 terraform output db_endpoint
 ```
-This command will display the sensitive connection URL in a secure manner.
+This command will display the sensitive connection URL in a secure manner. Similarly the password can also be obtained from terraform statefile.
