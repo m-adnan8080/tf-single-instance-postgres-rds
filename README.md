@@ -60,7 +60,17 @@
 <!-- END_TF_DOCS -->
 
 # Steps to Apply Configuration
-Initialize Terraform:
+Clone the repo
+```
+git clone https://github.com/m-adnan8080/tf-single-instance-postgres-rds.git
+```
+
+Change directory
+```
+cd tf-single-instance-postgres-rds
+```
+
+Update the `terraform.tfvars` file and initialize Terraform:
 
 ```
 terraform init
