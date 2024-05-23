@@ -34,7 +34,8 @@ module "db" {
   identifier = "my-postgresql-db"
 
   engine            = var.engine
-  engine_version    = var.engine_version
+  major_engine_version = var.engine_version
+  family = var.family
   instance_class    = var.instance_class
   allocated_storage = var.allocated_storage
   storage_type      = var.storage_type

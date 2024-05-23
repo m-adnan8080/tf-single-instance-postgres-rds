@@ -18,6 +18,11 @@ variable "engine_version" {
   default = "14.4"
 }
 
+variable "family" {
+  type = string
+  default = "postgres14"
+}
+
 variable "instance_class" {
   type = string
   description = "RDS Instance type"
