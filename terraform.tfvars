@@ -1,3 +1,5 @@
+vpc_id = "vpc-12345678"
+rds_sg_name = "database-sg"
 engine = "postgres"
 engine_version = "14.4"
 instance_class = "db.t3.micro"
@@ -7,7 +9,7 @@ db_name = "pgdb"
 
 username = "dbadmin"
 
-db_subnet_group_name = "database-sg"
+db_subnet_group_name = "database-subnet-name"
 
 publicly_accessible = false
 
