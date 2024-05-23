@@ -58,3 +58,25 @@
 | <a name="output_db_password"></a> [db\_password](#output\_db\_password) | The password for the RDS PostgreSQL instance |
 | <a name="output_db_port"></a> [db\_port](#output\_db\_port) | The port of the RDS PostgreSQL instance |
 <!-- END_TF_DOCS -->
+
+# Steps to Apply Configuration
+Initialize Terraform:
+
+```
+terraform init
+```
+Plan the Deployment:
+```
+terraform plan
+```
+Apply the Configuration:
+
+```
+terraform apply
+```
+After applying the configuration, the RDS instance will be publicly accessible, and you can retrieve the connection URL securely using:
+
+```
+terraform output db_endpoint
+```
+This command will display the sensitive connection URL in a secure manner.
